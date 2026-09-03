@@ -4559,10 +4559,10 @@
       "discoverability": 68.5,
       "contract_quality": 52.8,
       "governance": 0.0,
-      "contract_governance": 0.0,
       "operational_transparency": 31.6,
       "developer_ergonomics": 33.3,
       "commercial_clarity": 52.6,
+      "contract_governance": 0.0,
       "access_clarity": 52.6
      },
      "scored_at": "2026-09-02",

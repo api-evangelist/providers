@@ -1,5 +1,5 @@
 {
- "total": 2422,
+ "total": 2424,
  "shown": 1000,
  "limit": 1000,
  "bands": [
@@ -5879,8 +5879,8 @@
       "commercial_clarity": 84.2,
       "access_clarity": 84.2
      },
-     "scored_at": "2026-09-02",
-     "schema_version": "0.18.0",
+     "scored_at": "2026-09-03",
+     "schema_version": "0.18.1",
      "agent_score": 34.9,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -46390,6 +46390,15 @@
    "range": "0 – 10.9",
    "blurb": "Index entry only; little beyond a description and a link.",
    "count": 492,
+   "shown": 0,
+   "providers": []
+  },
+  {
+   "band": "unrated",
+   "label": "Not Yet Rated",
+   "range": "",
+   "blurb": "Providers we have not scored yet — unknown, not zero.",
+   "count": 2,
    "shown": 0,
    "providers": []
   }

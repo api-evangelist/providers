@@ -1,6 +1,6 @@
 {
- "total": 532,
- "shown": 532,
+ "total": 533,
+ "shown": 533,
  "limit": 1000,
  "bands": [
   {
@@ -24947,6 +24947,22 @@
       "agentic_commerce": false
      },
      "rank": 532
+    }
+   ]
+  },
+  {
+   "band": "unrated",
+   "label": "Not Yet Rated",
+   "range": "",
+   "blurb": "Providers we have not scored yet — unknown, not zero.",
+   "count": 1,
+   "shown": 1,
+   "providers": [
+    {
+     "name": "Cracked API",
+     "slug": "cracked",
+     "description": "Cracked is a tool router for AI agents: one API key and one prepaid balance to discover, inspect, run and poll thousands of third-party tools. It exposes 9,521 endpoints from 1,183 providers plus 50,000+ Apify actors, publishing measured success rate, median latency and per-call price per tool.",
+     "rank": 533
     }
    ]
   }

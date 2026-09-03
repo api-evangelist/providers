@@ -34431,10 +34431,10 @@
       "discoverability": 63.0,
       "contract_quality": 26.7,
       "governance": 0.0,
-      "contract_governance": 0.0,
       "operational_transparency": 0.0,
       "developer_ergonomics": 9.5,
       "commercial_clarity": 0.0,
+      "contract_governance": 0.0,
       "access_clarity": 0.0
      },
      "scored_at": "2026-09-02",

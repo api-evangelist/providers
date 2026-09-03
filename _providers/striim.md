@@ -8,38 +8,19 @@ access_model:
   source: []
   trial: false
   try_now: false
-agent_readiness:
-  band: human-only
-  dimensions:
-    agent_card: false
-    agent_skills: false
-    agentic_access: false
-    agentic_commerce: false
-    auth_clarity: false
-    consent_identity: false
-    delegated_identity: false
-    dry_run_mode: false
-    dynamic_client_registration: false
-    error_semantics: false
-    event_surface_described: false
-    idempotency: false
-    mcp_server: documented
-    openapi_examples: false
-    protected_resource_metadata: false
-    rate_limit_signal: false
-    reversibility_documented: false
-    spec_presence: false
-    well_known_catalog: false
-  schema_version: 0.2
-  score: 3.5
-  scored_at: '2026-09-02'
-api_count: 1
+api_count: 3
 apis:
-- description: 'REST API to create and manage (deploy, start, stop, undeploy, drop) Striim applications, execute TQL commands, retrieve monitoring and file lineage data, plus WActionStore queries (GET /wactions/def, '
+- baseURL: https://striim.stoplight.io
+  baseurl_source: declared
+  description: 'REST API to create and manage (deploy, start, stop, undeploy, drop) Striim applications, execute TQL commands, retrieve monitoring and file lineage data, plus WActionStore queries (GET /wactions/def, '
   name: Striim Application Management REST API
   slug: striim-application-management-rest-api
-artifact_total: 3
+artifact_total: 7
 common:
+- group: auth
+  title: ''
+  type: Authentication
+  url: authentication/striim-authentication.yml
 - group: auth
   title: ''
   type: DomainSecurity
@@ -52,10 +33,6 @@ common:
   title: ''
   type: Packages
   url: packages/striim-packages.yml
-- group: agent
-  title: ''
-  type: WellKnown
-  url: well-known/striim-well-known.yml
 - group: agent
   title: ''
   type: MCPServer
@@ -72,6 +49,66 @@ common:
   title: ''
   type: Conformance
   url: conformance/striim-conformance.yml
+- group: design
+  title: ''
+  type: ErrorCatalog
+  url: errors/striim-problem-types.yml
+- group: design
+  title: ''
+  type: Conventions
+  url: conventions/striim-conventions.yml
+- group: operate
+  title: ''
+  type: ChangeLog
+  url: changelog/striim-changelog.yml
+- group: design
+  title: ''
+  type: DataModel
+  url: data-model/striim-data-model.yml
+- group: commercial
+  title: ''
+  type: Plans
+  url: plans/striim-plans-pricing.yml
+- group: operate
+  title: ''
+  type: RateLimits
+  url: rate-limits/striim-rate-limits.yml
+- group: start
+  title: ''
+  type: Sandbox
+  url: sandbox/striim-sandbox.yml
+- group: auth
+  title: ''
+  type: TrustCenter
+  url: security/striim-trust-center.yml
+- group: auth
+  title: ''
+  type: Compliance
+  url: security/striim-trust-center.yml
+- group: agent
+  title: ''
+  type: AgentSkill
+  url: skills/_index.yml
+- group: commercial
+  title: ''
+  type: Pricing
+  url: https://www.striim.com/pricing/
+- group: commercial
+  title: ''
+  type: TermsOfService
+  url: https://www.striim.com/eula/
+- group: commercial
+  title: ''
+  type: PrivacyPolicy
+  url: https://www.striim.com/privacy-policy/
+- group: build
+  title: ''
+  type: GitHubOrganization
+  url: https://github.com/striim
+- group: operate
+  title: ''
+  type: Support
+  url: https://www.striim.com/contact-us/
 created: '2026-07-02'
 description: Unified data integration and streaming platform offering change data capture (CDC), real-time streaming analytics, and data validation. Exposes a token-authenticated REST API (WActionStore queries, system health, Application Management) consumed against your own Striim instance or Striim Cloud service.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/striim.png
@@ -80,46 +117,37 @@ mcp_servers:
 - description: ''
   name: Striim MCP AgentLink
   slug: striim-mcp-agentlink
-modified: '2026-06-20'
+modified: '2026-09-03'
 name: Striim
 nav: Providers
 network: true
-overview: 'Striim publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Data, Streaming, Change Data Capture, Real-Time, and Data Integration.
+overview: 'Striim publishes 1 API on the [APIs.io](https://apis.io/) network: Application Management REST API. Tagged areas include Data, Streaming, Change Data Capture, Real-Time, and Data Integration.
 
 
-  Striim''s developer surface includes engineering blog and 7 more developer resources.'
+  Striim''s developer surface includes authentication, engineering blog, changelog, sandbox, pricing, support, and 17 more developer resources.'
+plans:
+- name: Striim Plans Pricing
+  plan_count: 4
+  slug: striim-plans-pricing
 random_paper: 13
-score:
-  band: minimal
-  composite: 9.2
-  coverage:
-    artifact_dirs: 9
-    catalog_gap: 81.0
-    catalog_max: 115.0
-    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.0
-  facets:
-    access_clarity: 0.0
-    commercial_clarity: 0.0
-    contract_governance: 4.5
-    contract_quality: 0.0
-    developer_ergonomics: 11.9
-    discoverability: 63.0
-    governance: 4.5
-    operational_transparency: 0.0
-  previous_composite: 9.2
-  provenance:
-    conformance: derived
-    mcp: first-party
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
-  trend: flat
+rate_limits:
+- limit_count: 0
+  name: Striim Rate Limits
+  slug: striim-rate-limits
 screenshot: https://raw.githubusercontent.com/api-evangelist/striim/refs/heads/main/screenshots/striim-2026-09-02T161015.png
 security:
+- kind: authentication
+  name: Striim Authentication
+  slug: striim-authentication
+  summary_line: apiKey · 1 scheme
 - kind: domain-security
   name: Striim Domain Security
   slug: striim-domain-security
   summary_line: TLSv1.3 · HSTS · DMARC
+- kind: trust-center
+  name: Striim Trust Center
+  slug: striim-trust-center
+  summary_line: SOC 2 Type II, HIPAA, GDPR, PCI DSS
 slug: striim
 tags:
 - Data

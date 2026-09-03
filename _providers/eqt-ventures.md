@@ -7,7 +7,10 @@ access_model:
   onboarding: unknown
   pricing: unknown
   public: false
-  source: []
+  source:
+  - note: declared website redirects to https://eqtgroup.com/private-capital/eqt-ventures — a different registrable domain (eqtventures.com -> eqtgroup.com), possible rename or acquisition (probed 2026-09-03, roadmap#169)
+    status: 301
+    url: https://eqtventures.com/
   trial: false
   try_now: false
 api_count: 0

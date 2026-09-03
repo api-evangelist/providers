@@ -1,89 +1,85 @@
 ---
 access_model:
-  confidence: low
-  label: Unknown
-  onboarding: unknown
-  pricing: unknown
-  public: false
-  source: []
-  trial: false
-  try_now: false
-agent_readiness:
-  band: agent-aware
-  dimensions:
-    agent_card: false
-    agent_skills: false
-    agentic_access: false
-    agentic_commerce: false
-    auth_clarity: false
-    consent_identity: false
-    delegated_identity: false
-    dry_run_mode: false
-    dynamic_client_registration: false
-    error_semantics: false
-    event_surface_described: false
-    idempotency: false
-    mcp_server: false
-    openapi_examples: false
-    protected_resource_metadata: false
-    rate_limit_signal: false
-    reversibility_documented: false
-    spec_presence: true
-    well_known_catalog: false
-  schema_version: 0.2
-  score: 12.9
-  scored_at: '2026-09-02'
-api_count: 1
+  confidence: high
+  label: Self-serve freemium — Google login, free 200 req/day tier, in-browser playground
+  onboarding: self-serve
+  pricing: freemium
+  public: true
+  source:
+  - https://usebolsai.com/#pricing
+  - https://usebolsai.com/#playground
+  trial: true
+  try_now: true
+api_count: 2
 apis:
 - description: REST/JSON API for Brazilian financial-market data — equities, FIIs, fundamentals, dividends, financial statements, and macro series. Authenticated via X-API-Key header.
   name: Bolsai Financial Data API
   slug: bolsai-financial-data-api
-artifact_total: 1
+artifact_total: 6
+common:
+- group: auth
+  title: ''
+  type: DomainSecurity
+  url: security/bolsai-domain-security.yml
+- group: auth
+  title: ''
+  type: Authentication
+  url: authentication/bolsai-authentication.yml
+- group: build
+  title: ''
+  type: Packages
+  url: packages/bolsai-packages.yml
+- group: agent
+  title: ''
+  type: WellKnown
+  url: well-known/bolsai-well-known.yml
+- group: company
+  title: ''
+  type: Blog
+  url: https://usebolsai.com/blog
+- group: commercial
+  title: ''
+  type: Pricing
+  url: https://usebolsai.com/#pricing
+- group: operate
+  title: ''
+  type: Support
+  url: mailto:vinicius.lazzari@usebolsai.com
 created: '2026-07-06'
-description: Brazilian financial-market data REST API serving equities, real-estate funds (FIIs), fundamentals, dividends, financial statements, and macroeconomic series sourced from official feeds (B3, CVM, BCB).
+description: Brazilian financial-market data REST API serving equities, real-estate funds (FIIs), fundamentals, dividends, financial statements, and macroeconomic series sourced from official feeds (B3, CVM, BCB). Covers 350+ B3 stocks, 400+ FIIs and 40 years of price history, with an official MCP server (hosted OAuth endpoint and PyPI package) for AI agents.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/bolsai.png
 layout: provider
-modified: '2026-07-06'
+mcp_servers:
+- description: Official Bolsai MCP server exposing Brazilian financial-market data (B3 stocks, FIIs, fundamentals, dividends, CVM financial statements, BCB macro series) to MCP clients. Available BOTH as a hosted re
+  name: Bolsai MCP Server
+  slug: bolsai-mcp-server
+modified: '2026-09-03'
 name: Bolsai
 nav: Providers
 network: true
-overview: 'Bolsai publishes 1 API on the [APIs.io](https://apis.io/) network: Financial Data API. Tagged areas include Finance, Financial Data, Market Data, Stocks/equities, and Real Estate Funds.'
+overview: 'Bolsai publishes 1 API on the [APIs.io](https://apis.io/) network: Financial Data API. Tagged areas include Finance, Financial Data, Market Data, Stocks/equities, and Real Estate Funds.
+
+
+  Bolsai''s developer surface includes authentication, engineering blog, pricing, support, and 3 more developer resources.'
+plans:
+- name: Bolsai Plans Pricing
+  plan_count: 3
+  slug: bolsai-plans-pricing
 random_paper: 4
-score:
-  band: minimal
-  composite: 9.6
-  coverage:
-    artifact_dirs: 1
-    catalog_gap: 81.0
-    catalog_max: 115.0
-    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.0
-  facets:
-    access_clarity: 0.0
-    commercial_clarity: 0.0
-    contract_governance: 0.0
-    contract_quality: 26.7
-    developer_ergonomics: 9.5
-    discoverability: 63.0
-    governance: 0.0
-    operational_transparency: 0.0
-  needs_work:
-    note: Recorded so this provider's gaps can be attributed. Does not affect the composite above.
-    owner: catalog
-    reasons:
-    - owner: catalog
-      reason: never_enriched
-  previous_composite: 9.6
-  regulatory:
-    applies: true
-    matched_via: tags
-    regime: Securities & Market Data
-    regime_id: securities_market_data
-    score: 0.0
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
-  trend: flat
+rate_limits:
+- limit_count: 2
+  name: Bolsai Rate Limits
+  slug: bolsai-rate-limits
 screenshot: https://raw.githubusercontent.com/api-evangelist/bolsai/refs/heads/main/screenshots/bolsai-2026-07-25T203539.png
+security:
+- kind: authentication
+  name: Bolsai Authentication
+  slug: bolsai-authentication
+  summary_line: apiKey/oauth2 · 4 schemes
+- kind: domain-security
+  name: Bolsai Domain Security
+  slug: bolsai-domain-security
+  summary_line: TLSv1.3 · DMARC
 slug: bolsai
 tags:
 - Finance

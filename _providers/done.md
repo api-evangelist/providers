@@ -12,31 +12,6 @@ access_model:
   - security
   trial: false
   try_now: false
-agent_readiness:
-  band: agent-ready
-  dimensions:
-    agent_card: false
-    agent_skills: derived
-    agentic_access: derived
-    agentic_commerce: false
-    auth_clarity: bearer
-    consent_identity: false
-    delegated_identity: false
-    dry_run_mode: false
-    dynamic_client_registration: false
-    error_semantics: documented
-    event_surface_described: false
-    idempotency: false
-    mcp_server: false
-    openapi_examples: verified
-    protected_resource_metadata: false
-    rate_limit_signal: documented
-    reversibility_documented: false
-    spec_presence: true
-    well_known_catalog: false
-  schema_version: 0.2
-  score: 28.6
-  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 27
   human_in_the_loop: 1
@@ -46,7 +21,7 @@ agentic_access:
   summary_line: 27 operations · 27 acting · 1 human-in-the-loop
 api_count: 52
 apis:
-- description: Single-page agent-native catalog of the 26 _done pay-per-call utility APIs. Publishes a real llms.txt, a robots.txt, a sitemap.xml and an x402 resource manifest at /.well-known/x402.json listing every
+- description: Single-page agent-native catalog of the 27 _done pay-per-call utility APIs. Publishes a real llms.txt, a robots.txt, a sitemap.xml and an x402 resource manifest at /.well-known/x402.json listing every
   name: _done Catalog
   slug: done-catalog
 - baseURL: https://underscoredone.com
@@ -179,7 +154,12 @@ apis:
   description: The website uptime API from _done — 1 operation(s) for website uptime.
   name: _done website uptime API
   slug: done-website-uptime-api
-artifact_total: 59
+- baseURL: https://email-verifier.underscoredone.com
+  baseurl_source: declared
+  description: The email verifier API from _done -- 1 operation. POST /verify takes one email address and returns a deliverability verdict (valid/risky/invalid), splits username and domain, and flags free-provider d
+  name: _done email verifier API
+  slug: done-email-verifier-validator-api
+artifact_total: 60
 collections:
 - collection_type: open
   name: ASN Lookup
@@ -457,7 +437,7 @@ common:
   type: Packages
   url: packages/done-packages.yml
 created: '2026-08-10'
-description: '_done is an agent-native catalog of 26 single-purpose utility REST APIs — network and DNS lookups, domain intelligence, email-authentication checks, HTTP and SEO inspection, OCR, screenshots, hashing, JSON tooling, web3 resolution and finance calculators. There are no accounts, no signups and no API keys: every call is metered individually at $0.01 in USDC over the x402 protocol, settled on Base Mainnet or Solana Mainnet through the Coinbase CDP facilitator. Each service runs on its own subdomain, exposes a single POST operation, and publishes its own OpenAPI 3.1.0 spec annotated for AI agents with x-ai-instructions, x-guidance, x-pricing and x-402 payment metadata. Discovery is served from /.well-known/x402.json, /llms.txt, robots.txt and sitemap.xml. There is no MCP server, no A2A agent card, no SDK, no changelog, no status page and no published terms of service.'
+description: '_done is an agent-native catalog of 27 single-purpose utility REST APIs — network and DNS lookups, domain intelligence, email-authentication checks, HTTP and SEO inspection, OCR, screenshots, hashing, JSON tooling, web3 resolution and finance calculators. There are no accounts, no signups and no API keys: every call is metered individually at $0.01 in USDC over the x402 protocol, settled on Base Mainnet or Solana Mainnet through the Coinbase CDP facilitator. Each service runs on its own subdomain, exposes a single POST operation, and publishes its own OpenAPI 3.1.0 spec annotated for AI agents with x-ai-instructions, x-guidance, x-pricing and x-402 payment metadata. Discovery is served from /.well-known/x402.json, /llms.txt, robots.txt and sitemap.xml. There is no MCP server, no A2A agent card, no SDK, no changelog, no status page and no published terms of service.'
 image: https://underscoredone.com/logo.png
 layout: provider
 mcp_servers:
@@ -468,7 +448,7 @@ modified: '2026-08-11'
 name: _done
 nav: Providers
 network: true
-overview: '_done publishes 26 APIs on the [APIs.io](https://apis.io/) network, including asn lookup API, cors headers API, Data API, and 23 more. Tagged areas include Developer Tools, Utility APIs, AI Agents, agent-native, and x402.
+overview: '_done publishes 27 APIs on the [APIs.io](https://apis.io/) network, including asn lookup API, cors headers API, Data API, and 24 more. Tagged areas include Developer Tools, Utility APIs, AI Agents, agent-native, and x402.
 
 
   _done''s developer surface includes documentation, API reference, support, authentication, code examples, pricing, and 43 more developer resources.'
@@ -481,44 +461,6 @@ rate_limits:
 - limit_count: 0
   name: Done Rate Limits
   slug: done-rate-limits
-score:
-  band: thin
-  composite: 36.5
-  coverage:
-    artifact_dirs: 21
-    catalog_gap: 80.0
-    catalog_max: 115.0
-    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -1.9
-  facets:
-    access_clarity: 26.3
-    commercial_clarity: 26.3
-    contract_governance: 4.5
-    contract_quality: 60.7
-    developer_ergonomics: 44.6
-    discoverability: 57.4
-    governance: 4.5
-    operational_transparency: 2.6
-  previous_composite: 38.4
-  provenance:
-    agentic_access: derived
-    conformance: derived
-    contracts:
-      callable: 100.0
-      derived: 0
-      marker_coverage: 0.0
-      total: 26
-    mcp: derived
-    skills: derived
-  regulatory:
-    applies: true
-    matched_via: tags
-    regime: Energy & Utilities
-    regime_id: energy_utilities
-    score: 23.0
-  schema_version: 0.18.0
-  scored_at: '2026-09-02'
-  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/done/refs/heads/main/screenshots/done-2026-09-02T145256.png
 security:
 - kind: authentication

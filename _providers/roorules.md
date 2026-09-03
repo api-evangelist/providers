@@ -9,6 +9,9 @@ access_model:
   public: false
   source:
   - plans
+  - note: declared website redirects to https://roomote.dev/ — a different registrable domain (roocode.com -> roomote.dev), possible rename or acquisition (probed 2026-09-03, roadmap#169)
+    status: 301
+    url: https://roocode.com/
   trial: false
   try_now: false
 api_count: 3
