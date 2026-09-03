@@ -777,10 +777,15 @@ TAG_INDUSTRIES = [
         "icon": "trending_up",
         "description": "The firms allocating capital and the platforms moving it — venture and private equity, brokerages, trading, market data, and wealth management.",
         "tags": [
+            # "market data" and "financial data" were removed 2026-09-03: they are
+            # generic data-vendor descriptors, not investing-firm markers, and they
+            # filed every market-data vendor (178 and 85 providers carry them as
+            # top-level tags) under Venture Capital. FactSet was the reported case
+            # (report_correction, 2026-09-01).
             "venture capital", "private equity", "growth equity", "investing", "investment",
             "investment management", "asset management", "wealth management",
             "portfolio management", "trading", "brokerage", "broker", "stocks", "options",
-            "derivatives", "capital markets", "market data", "financial data", "hedge fund",
+            "derivatives", "capital markets", "hedge fund",
             "family office", "crowdfunding", "startups", "venture backed",
         ],
     },
@@ -802,9 +807,13 @@ TAG_INDUSTRIES = [
         "icon": "school",
         "description": "Universities, school systems, and the learning platforms, credentialing, and research infrastructure around them.",
         "tags": [
+            # bare "research" removed 2026-09-03: it is what analysts do everywhere
+            # (159 providers carry it as a top-level tag -- investment research,
+            # market research) and it filed FactSet under Education. "research data"
+            # stays -- it is the academic-infrastructure term.
             "education", "edtech", "higher education", "university", "universities", "k-12",
             "e-learning", "online learning", "learning", "lms", "students", "academic",
-            "research", "research data", "institutional repository", "open access", "library",
+            "research data", "institutional repository", "open access", "library",
             "libraries", "training", "coaching", "curriculum", "credentials",
         ],
     },

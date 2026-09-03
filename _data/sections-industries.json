@@ -165,7 +165,7 @@
   "name": "Education & EdTech",
   "description": "Universities, school systems, and the learning platforms, credentialing, and research infrastructure around them.",
   "icon": "school",
-  "count": 1164
+  "count": 982
  },
  {
   "slug": "energy",
@@ -501,7 +501,7 @@
   "name": "Venture Capital & Investing",
   "description": "The firms allocating capital and the platforms moving it — venture and private equity, brokerages, trading, market data, and wealth management.",
   "icon": "trending_up",
-  "count": 1306
+  "count": 1141
  },
  {
   "slug": "video-streaming",

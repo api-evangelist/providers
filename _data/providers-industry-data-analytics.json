@@ -6555,10 +6555,10 @@
       "discoverability": 59.3,
       "contract_quality": 66.4,
       "governance": 47.0,
-      "contract_governance": 47.0,
       "operational_transparency": 36.8,
       "developer_ergonomics": 70.8,
       "commercial_clarity": 34.2,
+      "contract_governance": 47.0,
       "access_clarity": 34.2
      },
      "scored_at": "2026-09-02",
